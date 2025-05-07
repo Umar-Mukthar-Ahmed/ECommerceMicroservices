@@ -1,2 +1,12 @@
-﻿global using MediatR;
+﻿global using Catalog.Api.Data;
+global using MediatR;
 global using Mapster;
+global using BuildingBlocks.CQRS;
+global using Catalog.Api.Models;
+global using Marten;
+global using Catalog.Api.Exceptions;
+global using FluentValidation;
+global using BuildingBlocks.Exceptions;
+global using BuildingBlocks.Behaviors;
+global using BuildingBlocks.Exceptions.Handler;
+global using Microsoft.AspNetCore.Mvc;
