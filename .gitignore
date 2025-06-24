@@ -231,6 +231,11 @@ _pkginfo.txt
 # but keep track of directories ending in .cache
 !?*.[Cc]ache/
 
+#sqlite files
+*.db
+*.db-shm
+*.db-wal
+
 # Others
 ClientBin/
 ~$*
